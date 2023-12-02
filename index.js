@@ -104,10 +104,6 @@ function displayTheLeaderboard() {
 		} else {
 			const jokes = data.split("\n").filter((joke) => joke.trim() !== "");
 			if (jokes.length > 0) {
-				console.log(
-					`The top 5 searched jokes in the leaderboard are:\n--------------------------------------\n`
-				);
-
 				const jokeObj = {};
 
 				for (let i = 0; i < jokes.length; i++) {
@@ -120,10 +116,13 @@ function displayTheLeaderboard() {
 				for (let key in jokeObj) {
 					leaderboardJokes.push([key, jokeObj[key]]);
 				}
-
 				leaderboardJokes = leaderboardJokes.sort((a, b) => b[1] - a[1]);
 
 				const len = Math.min(leaderboardJokes.length, 5);
+
+				console.log(
+					`The top ${len} searched jokes in the leaderboard are:\n--------------------------------------\n`
+				);
 
 				for (let i = 0; i < len; i++) {
 					console.log(
