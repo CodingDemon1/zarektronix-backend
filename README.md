@@ -36,11 +36,11 @@ This command line tool is designed to bring laughter into your terminal by fetch
 
 ## Usage
 
-**Run the tool with the following command:**
+- Run the tool with the following command:
 
-    ```
-    node index.js <searchTerm or "leaderboard">
-    ```
+  ```bash
+  node index.js <searchTerm or "leaderboard">
+  ```
 
 ## Examples
 
