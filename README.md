@@ -38,7 +38,7 @@ This command line tool is designed to bring laughter into your terminal by fetch
 
 **Run the tool with the following command:**
 
-    ```bash
+    ```
     node index.js <searchTerm or "leaderboard">
     ```
 
@@ -58,3 +58,7 @@ This command line tool is designed to bring laughter into your terminal by fetch
 ## Humorous Messages
 
 **The tool includes various humorous messages to keep you entertained throughout the process.**
+
+```
+
+```
