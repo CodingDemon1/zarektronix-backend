@@ -34,8 +34,27 @@ This command line tool is designed to bring laughter into your terminal by fetch
     npm install
     ```
 
-3.  **Run the tool with the following command:**
+## Usage
+
+**Run the tool with the following command:**
 
     ```bash
     node index.js <searchTerm or "leaderboard">
     ```
+
+## Examples
+
+1. **Search for Jokes:**
+
+   ```bash
+   node index.js cat
+   ```
+
+2. **Display Leaderboard:**
+   ```bash
+   node index.js leaderboard
+   ```
+
+## Humorous Messages
+
+**The tool includes various humorous messages to keep you entertained throughout the process.**
